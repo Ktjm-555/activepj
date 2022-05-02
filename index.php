@@ -22,6 +22,9 @@
                 </form>
             </div>
         </div>
+        <div class="counts">
+<!-- 結果を表示する -->
+        </div>
     </div>
 </body>
 </html>
