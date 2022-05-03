@@ -10,21 +10,42 @@
 </head>
 <body>
     <div class="main">
-        <div class="button-area">
-            <div>
-                <form action="" method="post" >
-                    <button type="submit"><img src="image/image01.png" alt="">ボタン</button>
-                </form>
+        <div class="button-cnt">
+            <div class="active-area">
+                <input type="image" id="active" alt="active" src="image/image01.png" onclick="counting()">
+                <div class="active-display">
+                    <span id="active-cnt">0</span>回
+                </div>
+                <div id="img"
             </div>
-            <div>
-                <form action="" method="post" >
-                    <button type="submit"><img src="image/image02.png" alt="">ボタン</button>
-                </form>
-            </div>
+            <div class="rest-area">   
+                <input type="image" id="rest" alt="rest" src="image/image02.png" onclick="counter()"> 
+                <div class="rest-display">
+                    <span id="rest-cnt">0</span>回 
+                </div>       
+            </div>             
         </div>
-        <div class="counts">
-<!-- 結果を表示する -->
         </div>
     </div>
+    <script>
+        var active = 0;
+        function counting(){
+            active = active + 1;
+            document.getElementById("active-cnt").innerHTML = active;
+            if (active > 5){
+                var img;
+                img = document.createElement('img');
+                img.setAttribute('src', 'image/image03.png');
+
+                document.
+            }
+        }
+        var rest = 0;
+        function counter(){
+            rest++;
+            document.getElementById("rest-cnt").innerHTML = rest;
+        }
+
+    </script>
 </body>
 </html>

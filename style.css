@@ -1,23 +1,25 @@
-button{
-    position: relative;
-    height: 40px;
-    width: 60px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    margin-left: 100px;
-    margin-top: 100px;
-    background: transparent;
-  }
-  
-  img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 200%;
-    height: 200%;
-  }
+#active, #rest {
+    width: 40%;
+    height: 60%;
+}
 
-  .button-area{
-      display: flex;
-  }
+.button-cnt {
+    display: flex;
+}
+
+#active {
+   margin-left: 250px;
+}
+
+#rest{
+    margin-right: 100px;
+}
+
+.rest-display{
+    margin-right: 100px;
+}
+
+.active-display{
+    margin-left: 250px;
+
+}
