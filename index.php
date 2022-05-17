@@ -1,41 +1,59 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="sanitaize.css">
-    <link rel="stylesheet" href="style.css">
-    <title>active_record</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="sanitaize.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Shippori+Mincho+B1&display=swap" rel="stylesheet">
+	<title>active_record</title>
 </head>
 <body>
-  <div class="main">
-    <div class="button-cnt">
-      <div class="active-area">
-        <input type="image" id="active" alt="active" src="image/image01.png" onclick="counting()">
-        <div class="active-display">
-          <span id="active-cnt">0</span>回
-        </div>
-        <div class="level">
-          <span id="level">初心者</span>
-        </div>
-      </div>
-      <div class="rest-area">   
-        <input type="image" id="rest" alt="rest" src="image/image02.png" onclick="counter()"> 
-        <div class="rest-display">
-          <span id="rest-cnt">0</span>回
-        </div>       
-        <div class="level_r">
-          <span id="level_r">今日くらいゆっくり</span>
+	<div class="container">
+		<div class="side">
+			<div class="menu_box">
+				<div class="menu" onclick="alert('ここはリンクにする予定です。')">
+					kaho
 				</div>
-      </div>             
-    </div>
-  </div>
-	<div class="reset">
-		<input type="button" value="リセット" id="reset" onclick="reset_do()">
-	</div>
-	<div class="cheer">
-		<img src="image/image03.png" id="cheer" onclick="alert('ここは押すもんじゃありません')">
+				<div class="menu" onclick="alert('ここはリンクにする予定です。')">
+					sora
+				</div>
+				<div class="menu" onclick="alert('ここはリンクにする予定です。')">
+					momo
+				</div>
+			</div>
+		</div>
+		<div class="product">
+			<div class="main">
+					<div class="active-area">
+						<input type="image" id="active" alt="active" src="image/image01.png" onclick="counting()">
+						<div class="active-display">
+							<span id="active-cnt">0</span>回
+						</div>
+						<div class="level">
+							<span id="level">初心者</span>
+						</div>
+					</div>
+					<div class="rest-area">   
+						<input type="image" id="rest" alt="rest" src="image/image02.png" onclick="counter()"> 
+						<div class="rest-display">
+							<span id="rest-cnt">0</span>回
+						</div>       
+						<div class="level_r">
+							<span id="level_r">今日くらいゆっくり</span>
+						</div>
+					</div>             
+			</div>
+			<div class="reset">
+				<input type="button" value="リセット" id="reset" onclick="reset_do()">
+			</div>
+			<div class="cheer">
+				<img src="image/image03.png" id="cheer" onclick="alert('ここは押すもんじゃありません')">
+			</div>
+		</div>
 	</div>
     <script>
 			window.onbeforeunload = function(reload) {
