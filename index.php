@@ -70,14 +70,15 @@
 			}
 
 			function reset_do(){
-				document.getElementById("active-cnt").innerHTML = 0;
-				document.getElementById("rest-cnt").innerHTML = 0;
+				active = 0;
+				rest   = 0; 
+				document.getElementById("active-cnt").innerHTML = active;
+				document.getElementById("rest-cnt").innerHTML = rest;
 				document.getElementById("level").innerHTML = "回帰初心者";
 				document.getElementById("level_r").innerHTML = "今日くらいゆっくりする？";
+				document.getElementById('active').src='image/image01.png';
+				document.getElementById('rest').src='image/image02.png';		
 			}
-
-			
-
     </script>
 </body>
 </html>
