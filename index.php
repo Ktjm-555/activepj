@@ -16,7 +16,9 @@
                 <div class="active-display">
                     <span id="active-cnt">0</span>回
                 </div>
-                <div id="img"
+                <div class="level">
+                    <span id="level">初心者</span>
+                </div>
             </div>
             <div class="rest-area">   
                 <input type="image" id="rest" alt="rest" src="image/image02.png" onclick="counter()"> 
@@ -33,11 +35,12 @@
             active = active + 1;
             document.getElementById("active-cnt").innerHTML = active;
             if (active > 5){
-                var img;
-                img = document.createElement('img');
-                img.setAttribute('src', 'image/image03.png');
+                document.getElementById("level").innerHTML = "成長期";
+                document.getElementById("level").innerHTML = "成長期";
 
-                document.
+                // var img;
+                // img = document.createElement('img');
+                // img.setAttribute('src', 'image/image03.png');
             }
         }
         var rest = 0;
