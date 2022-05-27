@@ -6,7 +6,7 @@ javaSriptを学習し、いいね機能の参考にならないかと思い作�
 # DEMO
 <img width="1430" alt="スクリーンショット 2022-05-25 22 30 56" src="https://user-images.githubusercontent.com/102650893/170274641-f38e8d55-b095-4605-9333-909208aef1e1.png">
 
-* https://temp-application.herokuapp.com/(ダミー)　　
+* https://activepj.herokuapp.com/
 
 ※herokuの仕様上、ボタンを早く押しすぎると画像の変更が遅れてしまいます。お気をつけください。
 
