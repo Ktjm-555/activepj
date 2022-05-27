@@ -30,7 +30,7 @@ javaSriptを学習し、いいね機能の参考にならないかと思い作�
 そのようにすることで、「記録する」ことに対して抵抗感がなく、継続しやすいと考えました。
 
 # 使用技術（開発環境）
-html/css/javaScript/Github/heroku/Visual Studio Code
+html/css/javascript/Github/heroku/Visual Studio Code
 
 # 使ってもらった人からの感想
 * 画像の変化があって、次はいつ変わるのかと楽しみになる。
